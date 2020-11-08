@@ -10,9 +10,6 @@ pressed = set()
 
 
 def sp(name):
-    if "mouse_" in name:
-        return name
-
     return keyboard_api.sp(name)
 
 

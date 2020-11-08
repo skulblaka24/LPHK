@@ -1,0 +1,7 @@
+- Script for stroking the shortcut ctrl+y
+@ASIDE
+PRESS ctrl
+PRESS y
+DELAY 0.5
+RELEASE ctrl
+RELEASE y

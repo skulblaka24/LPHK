@@ -4,29 +4,29 @@ A Novation Launchpad macro scripting system.
 <img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/LPHK_update_4.png" alt="Update 4"/>
 
 ## Table of Contents
-<a href="https://github.com/nimaid/LPHK"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Homepage"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Homepage"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/LPHK_icon_square.png" height="50px" hspace="0" alt="LPHK Homepage"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Homepage"/></a><a href="https://discord.gg/mDCzB8X"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Discord Chat"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/discord.png" height="50px" hspace="0" alt="LPHK Discord Chat"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Discord Chat"/></a><a href="https://www.patreon.com/user?u=16848673"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Patreon"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/patreon.png" height="50px" hspace="0" alt="LPHK Patreon"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Patreon"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Patreon"/></a>
+<a href="https://github.com/skulblaka24/LaunchpadPro-scripts"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Homepage"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Homepage"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/LPHK_icon_square.png" height="50px" hspace="0" alt="LPHK Homepage"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Homepage"/></a><a href="https://discord.gg/mDCzB8X"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Discord Chat"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/discord.png" height="50px" hspace="0" alt="LPHK Discord Chat"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Discord Chat"/></a><a href="https://www.patreon.com/user?u=16848673"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Patreon"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/patreon.png" height="50px" hspace="0" alt="LPHK Patreon"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Patreon"/><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/spacer.png" height="50px" hspace="0" alt="LPHK Patreon"/></a>
 
-* [Links](https://github.com/nimaid/LPHK#links-table-of-contents)
-* [What does it do?](https://github.com/nimaid/LPHK#what-does-it-do-table-of-contents)
-* [Compatibility](https://github.com/nimaid/LPHK#compatibility-table-of-contents)
-* [Installation](https://github.com/nimaid/LPHK#installation-table-of-contents)
-  * [Windows Install/Run Instructions](https://github.com/nimaid/LPHK#windows-installrun-instructions-table-of-contents)
-  * [Linux Install/Run Instructions](https://github.com/nimaid/LPHK#linux-installrun-instructions-table-of-contents)
-* [How do I use it? (Post-Install)](https://github.com/nimaid/LPHK#how-do-i-use-it-post-install-table-of-contents)
-* [What is LPHKscript?](https://github.com/nimaid/LPHK#what-is-lphkscript-table-of-contents)
-  * [Scheduling](https://github.com/nimaid/LPHK#scheduling-table-of-contents)
-  * [Headers](https://github.com/nimaid/LPHK#headers-table-of-contents)
-  * [Comments](https://github.com/nimaid/LPHK#comments-table-of-contents)
-  * [Commands List](https://github.com/nimaid/LPHK#commands-list-table-of-contents)
-    * [Utility](https://github.com/nimaid/LPHK#utility-table-of-contents)
-    * [Keypresses](https://github.com/nimaid/LPHK#keypresses-table-of-contents)
-    * [Mouse Movement](https://github.com/nimaid/LPHK#mouse-movement-table-of-contents)
-  * [Key Names](https://github.com/nimaid/LPHK#key-names-table-of-contents)
-* [Known Issues / Troubleshooting](https://github.com/nimaid/LPHK#known-issues--troubleshooting-table-of-contents)
-* [TODO List](https://github.com/nimaid/LPHK#todo-list-table-of-contents)
-* [DONE List](https://github.com/nimaid/LPHK#done-list-table-of-contents)
+* [Links](https://github.com/skulblaka24/LaunchpadPro-scripts#links-table-of-contents)
+* [What does it do?](https://github.com/skulblaka24/LaunchpadPro-scripts#what-does-it-do-table-of-contents)
+* [Compatibility](https://github.com/skulblaka24/LaunchpadPro-scripts#compatibility-table-of-contents)
+* [Installation](https://github.com/skulblaka24/LaunchpadPro-scripts#installation-table-of-contents)
+  * [Windows Install/Run Instructions](https://github.com/skulblaka24/LaunchpadPro-scripts#windows-installrun-instructions-table-of-contents)
+  * [Linux Install/Run Instructions](https://github.com/skulblaka24/LaunchpadPro-scripts#linux-installrun-instructions-table-of-contents)
+* [How do I use it? (Post-Install)](https://github.com/skulblaka24/LaunchpadPro-scripts#how-do-i-use-it-post-install-table-of-contents)
+* [What is LPHKscript?](https://github.com/skulblaka24/LaunchpadPro-scripts#what-is-lphkscript-table-of-contents)
+  * [Scheduling](https://github.com/skulblaka24/LaunchpadPro-scripts#scheduling-table-of-contents)
+  * [Headers](https://github.com/skulblaka24/LaunchpadPro-scripts#headers-table-of-contents)
+  * [Comments](https://github.com/skulblaka24/LaunchpadPro-scripts#comments-table-of-contents)
+  * [Commands List](https://github.com/skulblaka24/LaunchpadPro-scripts#commands-list-table-of-contents)
+    * [Utility](https://github.com/skulblaka24/LaunchpadPro-scripts#utility-table-of-contents)
+    * [Keypresses](https://github.com/skulblaka24/LaunchpadPro-scripts#keypresses-table-of-contents)
+    * [Mouse Movement](https://github.com/skulblaka24/LaunchpadPro-scripts#mouse-movement-table-of-contents)
+  * [Key Names](https://github.com/skulblaka24/LaunchpadPro-scripts#key-names-table-of-contents)
+* [Known Issues / Troubleshooting](https://github.com/skulblaka24/LaunchpadPro-scripts#known-issues--troubleshooting-table-of-contents)
+* [TODO List](https://github.com/skulblaka24/LaunchpadPro-scripts#todo-list-table-of-contents)
+* [DONE List](https://github.com/skulblaka24/LaunchpadPro-scripts#done-list-table-of-contents)
 
-## Links [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## Links [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * [Video Tutorial, Updates, and Plans](https://www.youtube.com/watch?v=XdJutWBEAqI)
 * [First Look](https://www.youtube.com/watch?v=zZPt_lknhks)
 * [Scheduling System](https://www.youtube.com/watch?v=rv2YmPQvMr0&t=164s)
@@ -35,7 +35,7 @@ A Novation Launchpad macro scripting system.
 * [Mouse Commands Demo - Maze](https://www.youtube.com/watch?v=w1YGSpT6aI8)
 * [Medium.com Advanced Soundboard Writeup](https://medium.com/@lloydduhon/podcasting-tips-converting-a-novation-launchpad-to-a-soundboard-for-your-podcast-660962bbcf6c)
 
-## What does it do? [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## What does it do? [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 The goal of this project is to implement a macro scripting system for the Novation Launchpad, in order to use the launchpad as a scriptable, general purpose macro keyboard.
 
 It uses "LPHKscript", a very simple scripting language similar to [DuckyScript](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript), and has a GUI to enter scripts, set colors, and to save/load your setup.
@@ -74,9 +74,9 @@ It uses "LPHKscript", a very simple scripting language similar to [DuckyScript](
 
 LPHK has all of its core features functional and ready to use! There are a lot of new features wanted, and there are massive bugs that need fixing, and it needs some more polish, but you can still do quite a lot with it as it is currently!
 
-LPHK is still a work-in-progress, so things will be changing often. [See below for a todo list.](https://github.com/nimaid/LPHK#todo-list-table-of-contents) I have a life (a crazy one at that), so no promises on a delivery date. Feel free to offer your help! You can see project updates and ask questions on the [official Discord server](https://discord.gg/mDCzB8X)! You can also donate on the [official Patreon page](https://www.patreon.com/user?u=16848673) to help speed up development, or just say thanks!
+LPHK is still a work-in-progress, so things will be changing often. [See below for a todo list.](https://github.com/skulblaka24/LaunchpadPro-scripts#todo-list-table-of-contents) I have a life (a crazy one at that), so no promises on a delivery date. Feel free to offer your help! You can see project updates and ask questions on the [official Discord server](https://discord.gg/mDCzB8X)! You can also donate on the [official Patreon page](https://www.patreon.com/user?u=16848673) to help speed up development, or just say thanks!
 
-## Compatibility [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## Compatibility [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 I have specifically chosen to do my best to develop this using as many cross platform libraries as possible, with a hard requirement that Linux and Windows be supported, and a strong preference for Mac as well. The GUI is driven by TK, which works on all of the above plus Unix. The interface with the launchpad and several script functions are built on pygame, which is compatible with basically everything ever. Pretty much everything else is standard Python 3.
 
 **Current compatibility:**
@@ -96,18 +96,19 @@ I have specifically chosen to do my best to develop this using as many cross pla
   * Pre-built binaries building, but not released
     * If anybody installs on Linux successfully and lets me know, I will start releasing binaries.
 * Mac
-  * Completely untested     
+  * Tested with the linux install files - Seems to work - Had to remove the MK3 reference as it was not present in the launchpad.py library, here: https://github.com/FMMT666/launchpad.py
+  * But saved the original file here: `<REPODIR>/utils/launchpad_connector.py_orig`
 
-## Installation [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
-*Note: Files used in the installation are named with a version number, and will change with each new release. The word `VERSION` is used in the below filenames and paths to denote where this version number will be. When going to [https://github.com/nimaid/LPHK/releases/latest](https://github.com/nimaid/LPHK/releases/latest), it will redirect to the page with the latest versions of these files, so the correct value of `VERSION` should be plainly obvious.*
+## Installation [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
+*Note: Files used in the installation are named with a version number, and will change with each new release. The word `VERSION` is used in the below filenames and paths to denote where this version number will be. When going to [https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest](https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest), it will redirect to the page with the latest versions of these files, so the correct value of `VERSION` should be plainly obvious.*
 *Note: Because pyautogui is used you may need to install some extra libraries to your machine, more info on this page: [https://pyautogui.readthedocs.io/en/latest/install.html](https://pyautogui.readthedocs.io/en/latest/install.html)*
 
-### Windows Install/Run Instructions [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Windows Install/Run Instructions [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 *Is these pre-built binaries do not work for you, please share the issue in the Discord or as a GitHub issue. In the meantime, advanced users can use `INSTALL\environment.yml` to install the LPHK conda environment, and then run `python LPHK.py` after activating it.*
 
 * If you want the installed version (recommended)
-  * Download the latest `LPHK_setup_VERSION.exe` file from [https://github.com/nimaid/LPHK/releases/latest](https://github.com/nimaid/LPHK/releases/latest)
-  * Run LPHK_setup_VERSION.exe` and follow the on-screen setup instructions.
+  * Download the latest `LPHK_setup_VERSION.exe` file from [https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest](https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest)
+  * Run LPHK_setup_VERSION.exe and follow the on-screen setup instructions.
   * To run LPHK, use one of the shortcuts, either the `Start Menu` or `Desktop` one (if you selected that option).
   * You can uninstall LPHK like any other program, with the Windows `Add or remove programs` utility.
     * There will also be an uninstaller named `unins000.exe` in the program folder. You can open the program folder by clicking the menu option `Help > Program folder...`.
@@ -117,12 +118,12 @@ I have specifically chosen to do my best to develop this using as many cross pla
   * It takes **much** longer to start up this way
   * Run `LPHK.exe`
 
-### Linux Install/Run Instructions [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Linux Install/Run Instructions [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 *The following instructions are for a beta version installer that aims to be fairly easyto use. Eventually, once Linux stability improves, there will be pre-built binaries released. Until then, if this installer fails, please share the issue in the Discord or as a GitHub issue. In the meantime, advanced users can use `INSTALL\environment.yml` to install the LPHK conda environment, and then run `python LPHK.py` after activating it.*
 
 *THE FOLLOWING INSTRUCTIONS ARE FOR THE BETA INSTALLER, WHICH AIMS TO BE PAINLESS TO USE. IT IS GOING TO SOON BE REPLACED BY BINARY RELEASES. IF THIS INSTALLER FAILS, TRY MANUALLY INSTALLING CONDA AND THE CONDA ENVIRONMENT IN `INSTALL/environment.yml`. THEN, RUN `LPHK.py` INSIDE THE `LPHK` CONDA ENVIRONMENT.*
 
-* Download the source of the latest release at [https://github.com/nimaid/LPHK/releases/latest](https://github.com/nimaid/LPHK/releases/latest)
+* Download the source of the latest release at [https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest](https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest)
   * Either the `VERSION.zip` or `VERSION.tar.gz` file will work, but the `VERSION.zip` file is probably easier to use
 * Extract the `LPHK-VERSION` folder
 * Run `LPHK-VERSION/INSTALL/linux_beta/install_linux.bash"` via a `bash` shell (NOT `sh`, `fish`, etc.)
@@ -136,9 +137,37 @@ I have specifically chosen to do my best to develop this using as many cross pla
 * To run LPHK, run `LPHK-VERSION/RUN.bash`.
   * `.desktop` shortcuts are coming soon!
 
-## How do I use it? (Post-Install) [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Mac Install/Run Instructions [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
+*This installation process has been based on the intructions above from the linux section. It has been tested on MacOSX Catalina with python 3.8*
+
+* Requirements:
+  * Python 3.8
+  * Pip 3.8
+* Download the source code of the latest release at [https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest](https://github.com/skulblaka24/LaunchpadPro-scripts/releases/latest) or [https://github.com/nimaid/LPHK/releases/latest](https://github.com/nimaid/LPHK/releases/latest)
+  * Either the `<VERSION>.zip` or `<VERSION>.tar.gz` file will work, but the `<VERSION>.zip` file is probably easier to use
+* Extract the `LPHK-<VERSION>` folder: $ `unzip <VERSION>.zip`
+* Run `LPHK-<VERSION>/INSTALL/mac_beta/install_mac.bash"` via a `bash` shell (NOT `sh`, `fish`, etc.)
+  * You can do this via terminal or, if it's set up, by double clicking it.
+* If you wish to manually install it, first install miniconda3:
+  * Download miniconda3: $ `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh`
+  * Run the script: $ `bash ./Miniconda3-latest-MacOSX-x86_64.sh`
+  * then: $ `chmod +x ./Miniconda3-latest-MacOSX-x86_64.sh`
+  * then: $ `./Miniconda3-latest-MacOSX-x86_64.sh -b -p ~/miniconda3`
+  * then: $ `rm ./Miniconda3-latest-MacOSX-x86_64.sh`
+  * then: $ `~/miniconda3/bin/conda init`
+  * then: $ `source ~/.bashrc`
+  * then: $ `~/miniconda3/bin/conda config --set auto_activate_base False`
+* Second step, install LPHK:
+  * $ `conda env create -f <REPODIR>/INSTALL/environment.yml`
+* Check if LPHK is installed: $ `cat \~/.conda/environments.txt | grep LPHK`
+* To run LPHK, run `<LPHK-VERSION>/run_osx.bash`.
+  * If it is still not working then your python packages must not have been installed.
+  * Run pip or pip3.8: $ `pip install git+git://github.com/FMMT666/launchpad.py.git@master pillow pygame pynput tkcolorpicker py-getch pyautogui`
+
+## How do I use it? (Post-Install) [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * Before starting the program, make sure your Launchpad Classic/Mini/S or MkII is connected to the computer.
   * If you have a Launchpad Pro, there is currently beta support for it. Please put it in `Live` mode by following the instructions in the pop-up when trying to connect in the next step. For more info, see the [User Manual](https://d2xhy469pqj8rc.cloudfront.net/sites/default/files/novation/downloads/10581/launchpad-pro-gsg-en.pdf).
+  * Pretty much for the pro: hold "setup" + First square top left.
 * Click `Launchpad > Connect to Launchpad...`.
   * If the connection is successful, the grid will appear, and the status bar at the bottom will turn green.
 * The current mode is displayed in the upper right, in the gap between the circular buttons. Clicking this text will change the mode. There are four modes:
@@ -163,24 +192,24 @@ I have specifically chosen to do my best to develop this using as many cross pla
 
 #### The whole GUI is still rough around the edges, so don't be too surprised if something breaks. If it does, kindly open a detailed issue on GitHub so I can fix the error. :) And don't feel shy making feature requests, either!
 
-## What is LPHKscript? [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## What is LPHKscript? [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 LPHKscript is a simple macro scripting language tailor made for LPHK. Syntax is closer to a shell/batch script than, say, JavaScript.
 
-### Comments [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Comments [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 Any line that starts with a dash `-` will be considered a comment, and will be ignored by the syntax validator/script parser. Useful to add notes for yourself or others!
 
-### Scheduling [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Scheduling [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 Only one script runs at a time, and there is a scheduling system for them. If a script is scheduled, it's button will pulse red. If the script is running, the button will flash red quickly. This is true for the 8x8 grid, however, the function keys cannot flash or pulse, as a hardware limitation. These keys will be bright orange for scheduled and bright red for running.
 
 When you press a script button, if there is a script running, it adds the script to the queue. If no scripts are running, the script is added to the queue and the queue execution is started. Tapping a scheduled script's button will unschedule it, and tapping a running scripts button will kill it. If that sounds confusing, load up `user_layouts/examples/all_delays_all_day.lpl` and press a bunch of buttons.
 
-### Headers [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Headers [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 Headers are commands that start with `@` and go on the first line of a script. They are used to put the scripting engine into different "modes", allowing you to do some interesting things.
 
-#### The `@ASYNC` Header [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+#### The `@ASYNC` Header [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 There is one exception to the scheduling system. If the script has the `@ASYNC` header, it will run in the background and will not interact with the other scripts. It can still be prematurely killed by tapping the button. If this is used, it must come before any other commands. Only comments and blank lines can come before it.
 
-#### The `@SIMPLE` Header [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+#### The `@SIMPLE` Header [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 This is a quick way to bind a controller button to a simple keypress of (argument 1). This has the equivalent code to:
 ```
 @ASYNC
@@ -190,10 +219,10 @@ RELEASE (argument 1)
 ```
 If this is used, all other lines in the file must either be blank lines or comments.
 
-### Commands List [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Commands List [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 Commands follow the format: `COMMAND arg1 arg2 ...`. Scripts are just a text file with newlines separating commands.
 
-#### Utility [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+#### Utility [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * `DELAY`
   * Delays the script for (argument 1) seconds.
 * `GOTO_LABEL`
@@ -208,6 +237,10 @@ Commands follow the format: `COMMAND arg1 arg2 ...`. Scripts are just a text fil
   * If the button the script is bound to is not pressed, goto label (argument 1) a maximum of (argument 2) times.
 * `LABEL`
   * Sets a label named (argument 1) for use with the `*GOTO_LABEL` commands.
+* `SCRIPT`
+  * Execute a script in the background.
+  * Note: The script must have the +x flag.
+    * eg: SCRIPT /Users/<user>/Desktop/test.sh
 * `OPEN`
   * Opens the file or folder (argument 1).
 * `REPEAT_LABEL`
@@ -226,10 +259,16 @@ Commands follow the format: `COMMAND arg1 arg2 ...`. Scripts are just a text fil
 * `WEB_NEW`
   * Open website (argument 1) in default browser, try new window.
   
-#### Keypresses [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+#### Keypresses [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * `PRESS`
   * Presses the key (argument 1).
     * See valid key names below.
+      * eg: For the keyboard shortcut ctrl+y
+      * PRESS ctrl
+      * PRESS y
+      * DELAY 0.5
+      * RELEASE ctrl
+      * RELEASE y
 * `RELEASE`
   * Releases the key (argument 1).
     * See valid key names below.
@@ -243,7 +282,7 @@ Commands follow the format: `COMMAND arg1 arg2 ...`. Scripts are just a text fil
   * If (argument 2) supplied, tap (argument 2) number of times.
   * If (argument 3) supplied,  delay (argument 3) seconds before releasing each time.
   
-#### Mouse Movement [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+#### Mouse Movement [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * `M_LINE`
   * Move the mouse in a line from absolute point (argument 1),(argument 2) to absolute point (argument 3),(argument 4).
   * If (argument 5) supplied, delay (argument 5) milliseconds between each step.
@@ -278,7 +317,7 @@ Commands follow the format: `COMMAND arg1 arg2 ...`. Scripts are just a text fil
 * `M_STORE`
   * Stores the current mouse position for use with the `M_RECALL*` commands.
 
-### Key Names [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+### Key Names [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 For the `PRESS`, `RELEASE`, and `TAP` commands, all single character non-whitespace keys and the following key names are allowed:
 * `alt`
 * `alt_gr`
@@ -318,7 +357,7 @@ For the `PRESS`, `RELEASE`, and `TAP` commands, all single character non-whitesp
 * `vol_down`
 * `vol_up`
 
-## Known Issues / Troubleshooting [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## Known Issues / Troubleshooting [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * The USB connection on the Launchpads, quite frankly, suck. If the angle is wrong, the Launchpad may receive power, but will not be able to transmit or receive data. While using the Launchpad, if you wiggle the connection somehow, it will straight up break the MIDI library I use. You will have to do the following:
   * Click on "Launchpad > Disconnect from Launchpad xxx..."
   * Unplug your Launchpad and wait about 5 seconds for the capacitors inside the Launchpad to drain. (It stays powered for a few seconds after losing it's connection, we want it dead as a doorknob)
@@ -335,7 +374,7 @@ For the `PRESS`, `RELEASE`, and `TAP` commands, all single character non-whitesp
     * At this point IDK, maybe the USB on your Launchpad needs to be replaced.
 * If your game/application does not detect mouse movements, see if there is an option to turn off "raw input" in the settings. This setting bypasses all software and reads directly from the mouse, which you don't want for this.
 
-## TODO List [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## TODO List [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 In order of priority:
 * Set unbound buttons to `null` in `.lpl` files
   * Thank you MatijaK from the Discord for reminding me about this!
@@ -405,7 +444,7 @@ In order of priority:
         * `solid` is coninuously on
     * Add more selectors to script entry window
 * Add a `Sound` menu with `Choose default output device...` option
-* [Refactor code to make LPHKscript functions in auto-implementing modules, for ease of delevopment](https://github.com/nimaid/LPHK/issues/3)
+* [Refactor code to make LPHKscript functions in auto-implementing modules, for ease of delevopment](https://github.com/skulblaka24/LaunchpadPro-scripts/issues/3)
   * A new testing branch will be created while the functional code is re-worked. To avoid merging issues, pull requests may have acceptance delayed until the refactor is complete.
   * There are a few complex refactoring tasks required for this, I will be crossing them off here on the testing branch:
     * ~~Make a killable delay/time library that monitors thread kill flags~~
@@ -414,7 +453,7 @@ In order of priority:
     * Move `@SIMPLE` to keyboard module.
       * Allow F['COMMAND']['macro'] = True to disallow other non-comment lines in the script. Default is False.
         * Macros will automatically have `_` added to the beginning (`@` will only be for headers)
-        * `validate_script()` will take care of making sure macros are alone (after comment/nl stripping)
+        * `()` will take care of making sure macros are alone (after comment/nl stripping)
       * Allow F['COMMAND']['macro_async'] = True to enable async on a macro. Default is False, ignored if not a macro.
         * When importing functions on startup, make a dict to keep track of what macros are async
         * `scripts.py` will have a `run_async` dict to keep track of if a script is async
@@ -445,7 +484,7 @@ In order of priority:
   * Give option (and strongly recommend its use) for users to run command once and verify it does what they want before binding to button (incl during load layout)
 * MIDI output command? (low priority due to [LPMM](https://github.com/nimaid/LPMM), an older project of mine that I no longer have time for due to LPHK)
 
-## DONE List [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
+## DONE List [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * ~~Support for Launchpad MkII~~
 * ~~Events system~~
 * ~~Colors system~~

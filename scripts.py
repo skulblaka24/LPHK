@@ -1,4 +1,4 @@
-import threading, webbrowser, os, subprocess
+import threading, webbrowser, os
 from time import sleep
 from functools import partial
 import lp_events, lp_colors, kb, sound, ms
@@ -10,7 +10,7 @@ DELAY_EXIT_CHECK = 0.025
 
 import files
 
-VALID_COMMANDS = ["@ASYNC", "@SIMPLE", "@LOAD_LAYOUT", "STRING", "DELAY", "TAP", "PRESS", "RELEASE", "WEB", "WEB_NEW", "CODE", "SOUND", "WAIT_UNPRESSED", "M_MOVE", "M_SET", "M_SCROLL", "M_LINE", "M_LINE_MOVE", "M_LINE_SET", "LABEL", "IF_PRESSED_GOTO_LABEL", "IF_UNPRESSED_GOTO_LABEL", "GOTO_LABEL", "REPEAT_LABEL", "IF_PRESSED_REPEAT_LABEL", "IF_UNPRESSED_REPEAT_LABEL", "M_STORE", "M_RECALL", "M_RECALL_LINE", "OPEN", "RELEASE_ALL", "RESET_REPEATS"]
+VALID_COMMANDS = ["@ASYNC", "@SIMPLE", "@LOAD_LAYOUT", "STRING", "DELAY", "TAP", "PRESS", "RELEASE", "WEB", "WEB_NEW", "SCRIPT", "SOUND", "WAIT_UNPRESSED", "M_MOVE", "M_SET", "M_SCROLL", "M_LINE", "M_LINE_MOVE", "M_LINE_SET", "LABEL", "IF_PRESSED_GOTO_LABEL", "IF_UNPRESSED_GOTO_LABEL", "GOTO_LABEL", "REPEAT_LABEL", "IF_PRESSED_REPEAT_LABEL", "IF_UNPRESSED_REPEAT_LABEL", "M_STORE", "M_RECALL", "M_RECALL_LINE", "OPEN", "RELEASE_ALL", "RESET_REPEATS"]
 ASYNC_HEADERS = ["@ASYNC", "@SIMPLE"]
 
 threads = [[None for y in range(9)] for x in range(9)]
@@ -22,7 +22,7 @@ def check_kill(x, y, is_async, killfunc=None):
     coords = "(" + str(x) + ", " + str(y) + ")"
     
     if threads[x][y].kill.is_set():
-        print("[scripts] " + coords + " Recieved exit flag, script exiting...")
+        print("[scripts] " + coords + " Received exit flag, script exiting...")
         threads[x][y].kill.clear()
         if not is_async:
             running = False
@@ -217,13 +217,6 @@ def run_script(script_str, x, y):
                         link = "http://" + link
                     print("[scripts] " + coords + "    Open website " + link + " in default browser, try to make a new window")
                     webbrowser.open_new(link)
-                elif split_line[0] == "CODE":
-                    args = " ".join(split_line[1:])
-                    print("[scripts] " + coords + "    Running code: " + args)
-                    try:
-                        subprocess.run(args)
-                    except Exception as e:
-                        print("[scripts] " + coords + "    Error with running code: " + str(e))
                 elif split_line[0] == "SOUND":
                     if len(split_line) > 2:
                         print("[scripts] " + coords + "    Play sound file " + split_line[1] + " at volume " + str(split_line[2]))
@@ -231,6 +224,11 @@ def run_script(script_str, x, y):
                     else:
                         print("[scripts] " + coords + "    Play sound file " + split_line[1])
                         sound.play(split_line[1])
+                        
+                # Added by me to run script in the background
+                elif split_line[0] == "SCRIPT":
+                    print("The script is: " + split_line[1])
+                    os.system('bash ' + split_line[1])
                 elif split_line[0] == "WAIT_UNPRESSED":
                     print("[scripts] " + coords + "    Wait for script key to be unpressed")
                     while lp_events.pressed[x][y]:
@@ -577,6 +575,11 @@ def unbind_all():
     files.curr_layout = None
     files.layout_changed_since_load = False
     
+#################################################################################################
+#
+#   Scripts Validation: length and arguments conformity
+#
+#################################################################################################
 def validate_script(script_str):
     if script_str == "":
         return True
@@ -593,6 +596,7 @@ def validate_script(script_str):
     first_line = script_lines[0]
     first_line_split = first_line.split(" ")
 
+    # Check Headers
     if first_line_split[0] == "@ASYNC":
         if len(first_line_split) > 1:
             return ("@ASYNC takes no arguments.", script_lines[0])
@@ -624,7 +628,7 @@ def validate_script(script_str):
         except:
             return ("Layout '" + layout_path + "' is malformatted.", first_line)
     
-    #parse labels
+    # Parse labels
     labels = []
     for line in script_lines:
         split_line = line.split(" ")
@@ -635,7 +639,8 @@ def validate_script(script_str):
                 return ("Label '" + split_line[1] + "' defined multiple times.", line)
             else:
                 labels.append(split_line[1])
-    
+
+    # Analyse the scripts
     for idx, line in enumerate(script_lines):
         if line != "":
             if line[0] != "-":
@@ -645,7 +650,7 @@ def validate_script(script_str):
                         return ("Headers must only be used on the first line of a script.", line)
                 if split_line[0] not in VALID_COMMANDS:
                     return ("Command '" + split_line[0] + "' not valid.", line)
-                if split_line[0] in ["STRING", "DELAY", "TAP", "PRESS", "RELEASE", "WEB", "WEB_NEW", "CODE", "SOUND", "M_MOVE", "M_SET", "M_SCROLL", "OPEN"]:
+                if split_line[0] in ["STRING", "DELAY", "TAP", "PRESS", "RELEASE", "WEB", "WEB_NEW", "SOUND", "M_MOVE", "M_SET", "M_SCROLL", "OPEN"]:
                     if len(split_line) < 2:
                         return ("Too few arguments for command '" + split_line[0] + "'.", line)
                 if split_line[0] in ["WAIT_UNPRESSED", "RELEASE_ALL", "RESET_REPEATS"]:
