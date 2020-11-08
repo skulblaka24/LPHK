@@ -97,6 +97,7 @@ I have specifically chosen to do my best to develop this using as many cross pla
     * If anybody installs on Linux successfully and lets me know, I will start releasing binaries.
 * Mac
   * Tested with the linux install files - Seems to work - Had to remove the MK3 reference as it was not present in the launchpad.py library, here: https://github.com/FMMT666/launchpad.py
+  * I made a copy here: https://github.com:skulblaka24/launchpad.py.git
   * But saved the original file here: `<REPODIR>/utils/launchpad_connector.py_orig`
 
 ## Installation [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
@@ -162,7 +163,7 @@ I have specifically chosen to do my best to develop this using as many cross pla
 * Check if LPHK is installed: $ `cat \~/.conda/environments.txt | grep LPHK`
 * To run LPHK, run `<LPHK-VERSION>/run_osx.bash`.
   * If it is still not working then your python packages must not have been installed.
-  * Run pip or pip3.8: $ `pip install git+git://github.com/FMMT666/launchpad.py.git@master pillow pygame pynput tkcolorpicker py-getch pyautogui`
+  * Run pip or pip3.8: $ `pip install git+git@github.com:skulblaka24/launchpad.py.git@master pillow pygame pynput tkcolorpicker py-getch pyautogui`
 
 ## How do I use it? (Post-Install) [[Table of Contents]](https://github.com/skulblaka24/LaunchpadPro-scripts#table-of-contents)
 * Before starting the program, make sure your Launchpad Classic/Mini/S or MkII is connected to the computer.
